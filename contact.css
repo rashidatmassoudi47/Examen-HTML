@@ -28,12 +28,14 @@ header {
 }
 
 nav a {
-    margin-right: 30px;
-    text-decoration: none;
+     text-decoration: none;
     font-weight: 500;
     padding: 14px 40px;
     top: 0;
     color: white;
+
+
+
 
 }
 
