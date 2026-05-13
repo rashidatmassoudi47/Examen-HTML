@@ -1,3 +1,6 @@
+body{
+    background-color:#FEF3C7 ;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -187,6 +190,10 @@ footer {
     height: auto;
 
 }
+.F{
+    display: flex;
+    align-items: center;
+}
 
 .o {
     width: 30%;
@@ -200,6 +207,8 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+    width: auto;
+    height: auto;
 }
 
 .o img {
@@ -241,6 +250,15 @@ p{
 h3{
     color: #D97706;
 }
+.footer-bottom{
+    text-align: center;
+    margin-top: 300px;
+    border-top: 2px solid #1F2937;
+    text-align: center;
+    
+}
+
+
 
 @media (max-width:1024px){
 header{
@@ -316,23 +334,53 @@ header{
     padding: 12px 20px;
     flex-wrap: wrap;
 }
-.menu-toggle{
+{
+ #hamburger-toggle {
+    display: none;
+  }
+ .hamburger {
+    display: none;
+  }
+nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: auto;
+    width: 200px;
+    height: auto;
+
+    padding: 12px 16px;
+    z-index: 9999;
+    box-sizing: border-box;
+    border-radius: 0 0 0 8px;
+    box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    color: #e8ddd4;
+    display: block;
+    padding: 12px 0;
+    font-size: 1rem;
+    border: solid 1px #92400E;
+    background: #92400E;
+    text-align: center;
+    border-radius: 12px;
+
+  }
+
+
+  .hamburger {
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
-    background: none;
-    border: none;
-    padding: 5px;
-}
-.menu-toggle span{
+  }
+
+  .hamburger span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    border-radius: 3px;
-    transition: all 0.3s ease;
-}
+    width: 25px…
 nav{
     display: none;
     flex-direction: column;
@@ -486,6 +534,7 @@ footer{
 .social-icon{font-size: 20px;}
 
 }
+
 
 
 
